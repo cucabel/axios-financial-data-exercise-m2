@@ -13,8 +13,8 @@ siteRouter.get('/graphs-example', (req, res, next) => {
 })
 
 
-
-
-
+siteRouter.get('/currencies-example', (req, res, next) => {
+  res.render('currencies-view');
+})
 
 module.exports = siteRouter;

@@ -3,6 +3,7 @@
 /**
  * Module dependencies.
  */
+require('dotenv').config() // Problem with the port 3000 -> I created the .env file
 
 var app = require('../app');
 var debug = require('debug')('00-axios-examples:server');
